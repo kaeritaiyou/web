@@ -243,10 +243,10 @@ footer small{
     margin-bottom: 50px;
 }
 article{
-    width: 78%;
+    width: 66%;
 }
 aside{
-    width: 15%
+    width: 33%
 } 
 
 .news-contents img {

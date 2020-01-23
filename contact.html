@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>ホームページ(おれの)</title>
+        <meta name="description" content="ページの説明">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <!--link href="reset.css" rel="stylesheet" type="text/css"-->
+        <link href="css/css.css" rel="stylesheet" type="text/css">
+
+        <!--スマホ用レスポンシブデザイン-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <a href="index.html"><header class= "header-title wrapper">
+            <h1>HOME</h1>
+            <div id="branding">
+                <p>おれのホームページ</p>
+            </div>
+        </header></a>
+
+        <nav>
+            <ul class="wrapper"> 
+                <a href="index.html"><li>HOME</li></a>
+                <a href="unko.html"><li>UNKO</li></a>
+                <a href="unko.html"><li>UNKO</li></a>
+                <a href="contact.html"><li>CONTACT</li></a>
+            </ul>
+        </nav>
+
+       <!--CONTACT-->
+       <div class="wrapper">
+            <h2>　　</h2>
+            <h2>Contact</h2>
+            <h2>　　</h2>
+            <form action="#">
+                <div>
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="your-name">
+                </div>
+
+                <div>
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="your-email">
+                </div>
+
+                <div>
+                    <label for="message">メッセージ</label>
+                    <textarea id="message"  name="your-message"></textarea>
+                </div>
+
+                <input type="submit" class="button" value="送信">
+            </form>
+        </div>
+        <!--LOCATION-->
+        <section id="location">
+            <div class="wrapper">
+                <div class="location-info">
+                    <h2>　　</h2>
+                    <h2>　　</h2>
+                    <h2>Location</h2>
+                    <h2>　　</h2>
+                    <p>
+                        住所：東京都○○<br>
+                        ○○○○○○○○○○○○<br>
+                        電話：000-0000-000<br>
+                        営業時間：00:00~00:00<br>
+                    </p>
+                </div>
+                <div class="location-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57486.21039307764!2d-80.24869053705548!3d25.774257747248438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2z44Ki44Oh44Oq44Kr5ZCI6KGG5Zu9IOODleODreODquODgOW3niDjg57jgqTjgqLjg58!5e0!3m2!1sja!2sjp!4v1572957411758!5m2!1sja!2sjp" width="800" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!--SNS-->
+        <section id="sns">
+            <div class="wrapper">
+                <div class="sns-box">
+                    <h3 class="sub-title">Facebook</h3>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=315&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                
+                </div>
+                <div class="sns-box">
+                    <h3 class="sub-title">Youtube</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7t33ISOpLP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+                </div>
+                <div class="sns-box">
+                    <h3 class="sub-title">Twitter</h3>
+                    <a class="twitter-timeline" data-height="315" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <div>
+            </div>
+        </section>
+
+        <footer> 
+            <!-- <small>Copyright©️2020 unko,Allright Reserved.</small> -->
+            <small>hayaku kaeritai.</small>
+        </footer>
+
+    </body>
+</html>
